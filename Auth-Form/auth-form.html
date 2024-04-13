@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Banque - Authentification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="auth-form-style.css" />
+    <script defer src="auth-form-script.js"></script>
+  </head>
+  <body>
+    <div class="step-count">
+      <img src="../Assets/check-icon.png" class="checked" />
+      <div class="seperator"></div>
+      <h2 class="selected">2</h2>
+      <div class="seperator"></div>
+      <h2>3</h2>
+      <div class="seperator"></div>
+      <h2>4</h2>
+      <div class="seperator"></div>
+      <h2>5</h2>
+    </div>
+
+    <h1>Choisissez votre méthode d’authentification</h1>
+
+    <div class="main-cont">
+      <div class="left-cont">
+        <label for="nom">Nom</label>
+        <input type="text" />
+        <label for="prenom">Prenom</label>
+        <input type="text" />
+        <label for="email">E-Mail</label>
+        <input type="email" />
+        <label for="numTel">Numéro de téléphone</label>
+        <input type="text" />
+        <div class="terms">
+          <input type="checkbox" />
+          <p>
+            J’accepte les mentions légales relatives a la protection des données
+            personnelles
+          </p>
+        </div>
+        <div class="button-cont">
+          <button class="exit">Annuler</button>
+          <button class="confirm">Valider</button>
+        </div>
+      </div>
+
+      <div class="right-cont">
+        <div class="right-top">
+          <div class="line"></div>
+          <h2>OU</h2>
+          <div class="line"></div>
+        </div>
+          <div class="alternate-method">
+            <img src="../Assets/google-icon.png" />
+            <h3>Continuer avec Google</h3>
+          </div>
+          <div class="alternate-method">
+            <img src="../Assets/id-icon.png" />
+            <h3>Continuer avec upload CIN</h3>
+          </div>
+          <div class="alternate-method">
+            <img src="../Assets/phone-icon.png" />
+            <h3>Continuer avec operateur telephonique</h3>
+          </div>
+          <div class="alternate-method">
+            <img src="../Assets/chatbot-icon.png" />
+            <h3>Continuer avec chatbot</h3>
+          </div>
+          <div class="alternate-method">
+            <img src="../Assets/visio-icon.png" />
+            <h3>Continuer avec visio</h3>
+          </div>
+
+      </div>
+    </div>
+  </body>
+</html>

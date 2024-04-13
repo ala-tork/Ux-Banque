@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Banque - Authentification</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="info-personnel-style.css" />
+    <script defer src="info-personnel-script.js"></script>
+  </head>
+  <body>
+    <div class="step-count">
+      <img src="../Assets/check-icon.png" class="checked" />
+      <div class="seperator"></div>
+      <img src="../Assets/check-icon.png" class="checked" />
+      <div class="seperator"></div>
+      <h2 class="selected">3</h2>
+      <div class="seperator"></div>
+      <h2>4</h2>
+      <div class="seperator"></div>
+      <h2>5</h2>
+    </div>
+
+    <h1>Mes informations personnelles</h1>
+
+    <div class="main-cont">
+      <div class="left-cont">
+        <label for="cin">CIN *</label>
+        <input type="text" />
+        <label for="nom">Nom *</label>
+        <input type="text"/>
+        <label for="prenom">Prenom *</label>
+        <input type="text"/>
+        <label for="email">E-Mail *</label>
+        <input type="email"/>
+        <label for="date-naissance">Date De Naissance *</label>
+        <input type="date"/>
+        <label for="pays">Pays *</label>
+        <select name="pays">
+            <option>Tunisie</option>
+            <option>France</option>
+            <option>Italie</option>
+        </select>
+        <div class="adress-cont">
+
+          <div class="adress-cont-child">
+          <label for="adresse">Adresse *</label>
+          <input type="text"/>
+        </div>
+
+        <div class="adress-cont-child">
+          <label for="gouvernorat">Gouvernorat *</label>
+          <select name="pays">
+            <option>Tunis</option>
+            <option>Manouba</option>
+            <option>Ariana</option>
+            <option>Bizerte</option>
+            <option>Sfax</option>
+            <option>Sousse</option>
+        </select>
+        </div>
+
+        </div>
+
+        <label for="num-tel">Numero De Telephone *</label>
+        <input type="text"/>
+
+        <label for="employ-info">Information Sur L'emploi *</label>
+        <input type="text"/>
+        <label for="numero-fiscal">Numéro Fiscal *</label>
+        <input type="number"/>
+        <label for="other-number">Numéro de carte de séjour ou de résidence (Pour les étrangers)</label>
+        <input type="number"/>
+
+
+        <div class="button-cont">
+          <button class="exit">Annuler</button>
+          <button class="confirm">Valider</button>
+        </div>
+      </div>
+
+      <div class="right-cont">
+
+        <div class="right-img">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

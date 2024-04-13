@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Banque - Simulateur Besoins</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="simulateur-besoins-style.css"
+    />
+    <script defer src="simulateur-besoins-script.js"></script>
+  </head>
+  <body>
+    <div class="step-count">
+      <h2 class="selected">1</h2>
+      <div class="seperator"></div>
+      <h2>2</h2>
+      <div class="seperator"></div>
+      <h2>3</h2>
+      <div class="seperator"></div>
+      <h2>4</h2>
+      <div class="seperator"></div>
+      <h2>5</h2>
+    </div>
+
+    <h1 class="title">Simuler vos besoins</h1>
+
+    <div class="main-cont">
+      <div class="left-cont">
+        <div class="label-left">
+          <div class="label-circle"></div>
+          <h2>Quel est votre objectif principal ?</h2>
+        </div>
+
+        <div class="radio-elements">
+          <div class="radio-element">
+            <label for="voiture">Voiture</label>
+            <input type="radio" />
+          </div>
+
+          <div class="radio-element">
+            <label for="projet">Projet</label>
+            <input type="radio" />
+          </div>
+
+          <div class="radio-element">
+            <label for="maison">Maison</label>
+            <input type="radio" />
+          </div>
+
+          <div class="radio-element">
+            <label for="etudes">Etudes</label>
+            <input type="radio" />
+          </div>
+
+          <div class="radio-element">
+            <label for="autres">Autres</label>
+            <input type="radio" />
+          </div>
+        </div>
+
+        <div class="label-left">
+          <div class="label-circle"></div>
+          <h2>Quel est votre budget prévisionnel ?</h2>
+        </div>
+
+        <div class="left-input">
+          <input type="number" />
+        </div>
+
+        <div class="label-left">
+          <div class="label-circle"></div>
+          <h2>
+            Si vous cherchez à obtenir un prêt, avez-vous un montant précis ?
+          </h2>
+        </div>
+
+        <div class="left-input">
+          <input type="number" />
+        </div>
+
+        <div class="label-left">
+          <div class="label-circle"></div>
+          <h2>Si vous travaillez sur un projet, quel est le budget estimé ?</h2>
+        </div>
+
+        <div class="left-input">
+          <input type="number" />
+        </div>
+
+        <div class="label-left">
+          <div class="label-circle"></div>
+          <h2>Comment décririez-vous le projet ?</h2>
+        </div>
+
+        <div class="left-input">
+          <textarea></textarea>
+        </div>
+
+        <div class="label-left">
+          <div class="label-circle"></div>
+          <h2>Qu'en est-il du délai d'achèvement estimé ?</h2>
+        </div>
+
+        <div class="left-input">
+          <input type="text" />
+        </div>
+
+        <div class="button-cont">
+          <button class="exit">Retour</button>
+          <button class="confirm">Confirmer</button>
+        </div>
+      </div>
+      <div class="right-cont"></div>
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <h2>
+          La meilleur offre pour vous aider à atteindre vos objectifs est :
+        </h2>
+        <div class="modal-main-cont">
+          <div class="modal-main-img">
+            <h3>Offre Premium</h3>
+            <img src="../Assets/premium-pack - Copy.jpg"/>
+          </div>
+          <div class="modal-main-advantages">
+            <h3>Avantages</h3>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing eli</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing eli</li>
+            <li>Lorem ipsum dolor sit amet, consectetur adipiscing eli</li>
+          </div>
+          <div class="modal-main-note">
+            <h3>Remarque</h3>
+            <p>
+              L'agent que vous choisirez plus tard sera en contact permanent
+              avec vous pour vous aider à atteindre ces objectifs.
+            </p>
+          </div>
+        </div>
+
+        <div class="modal-button-cont">
+          <button class="return">Retour</button>
+          <button class="continue">Continuer</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

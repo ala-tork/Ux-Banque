@@ -1,0 +1,74 @@
+body{
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    font-family: "Inter", sans-serif;
+    border: 1px solid;
+    cursor: pointer;
+}
+.step-count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.seperator{
+    width: 60px;
+    height: 2px;
+    background-color: black;
+    margin: auto 40px;
+}
+.step-count h2{
+    border: 2px solid;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.selected{
+    background-color: lightgray;
+}
+.main-cont{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 95vw;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 20px;
+    height: 400px;
+}
+.main-section{
+    height: 100%;
+    width: 30%;
+    margin: auto 20px;
+}
+.main-section h2{
+    margin: 40px auto;
+}
+.main-section li{
+    margin: 20px auto;
+}
+.button-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.button-cont button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: auto 100px;
+}
+.create{
+    background-color: gray;
+    color: azure;
+}

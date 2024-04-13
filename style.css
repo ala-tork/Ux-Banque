@@ -1,0 +1,210 @@
+body{
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+}
+button{
+    font-family: "Inter", sans-serif;
+    border: 1px solid;
+    cursor: pointer;
+}
+.video-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url("./Assets/video-img.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+
+}
+.video-section img{
+    width: 100px;
+    cursor: pointer;
+}
+
+.video-section img:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+.video-section button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.offers-sections-title{
+    margin: 60px auto;
+    text-align: center;
+}
+
+.offers-sections{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.offer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 10px 40px;
+    border: 2px solid;
+    border-radius: 5px;
+    padding: 30px;
+    width: 450px;
+    height: 700px;
+}
+.offer img{
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.offer li{
+    margin: 20px auto;
+}
+.offer p{
+    color: gray;
+    font-weight: 600;
+}
+.offer button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.offer button:hover{
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.review-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 90vw;
+}
+.review-section button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F4F2F2;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.user{
+    width: 50px;
+    margin-left: 30px;
+}
+.review-info{
+    width: 80%;
+}
+.stars{
+    width: 100px;
+    margin-right: 30px;
+}
+
+.needs-card img{
+    width: 250px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+.needs-simulator{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 30px auto;
+    border: 2px solid;
+    border-radius: 5px;
+    width: 90vw;
+}
+.needs-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.needs-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid;
+    text-align: center;
+    border-radius: 5px;
+    height: 450px;
+    width: 23%;
+    margin: 10px;
+}
+.needs-card h3{
+    width: 80%;
+}
+.needs-card p {
+    width: 80%;
+}
+.needs-simulator button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.counter-offer-section{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin: 80px auto;
+    padding: 20px;
+}
+.counter-offer-section button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-left: 80%;
+}
+.assistance-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    margin-bottom: 80px;
+    padding: 40px;
+}
+.assistance-section button{
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.assistance-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.assistance-main img{
+    width: 400px;
+    border-radius: 5px;
+    margin: auto 40px;
+}
+.assistance-text{
+    margin-right: 40px;
+}

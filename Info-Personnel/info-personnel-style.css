@@ -1,0 +1,139 @@
+body {
+  font-family: "Inter", sans-serif;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+button {
+  font-family: "Inter", sans-serif;
+  border: 1px solid;
+  cursor: pointer;
+}
+.step-count {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.seperator {
+  width: 60px;
+  height: 2px;
+  background-color: black;
+  margin: auto 40px;
+}
+.step-count h2 {
+  border: 2px solid;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.selected {
+  background-color: lightgray;
+}
+.checked {
+  width: 60px;
+}
+.main-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95vw;
+  border: 3px solid;
+  border-radius: 5px;
+  margin-top: 40px;
+}
+.left-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: auto;
+  width: 80%;
+}
+
+.button-cont {
+  margin: 60px auto;
+}
+.button-cont button {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 600;
+  margin: auto 50px;
+}
+
+.left-cont label {
+  margin: 30px auto;
+  font-weight: 700;
+  font-size: 20px;
+}
+.left-cont input {
+  width: 50%;
+  height: 25px;
+  border: 3px solid gray;
+  border-radius: 5px;
+}
+.left-cont select {
+  width: 50%;
+  height: 30px;
+  border: 3px solid gray;
+  border-radius: 5px;
+}
+.terms {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+}
+.terms input {
+  height: 15px;
+  border: 5px solid;
+  margin-right: -50px;
+}
+.terms p {
+  font-size: 14px;
+  text-decoration: underline;
+  text-align: center;
+}
+.right-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-right: auto;
+  width: 60%;
+  text-align: center;
+}
+
+.confirm{
+    background-color: lightgray;
+    color: azure;
+}
+.adress-cont{
+  display: flex;
+  align-items: center;
+  width: 95%;
+}
+.adress-cont-child{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.adress-cont-child input{
+  width: 90%;
+}
+.adress-cont-child select{
+  width: 90%;
+}
+.right-img{
+  width: 550px;
+  height: 1200px;
+  border: 3px solid;
+  border-radius: 5px;
+}

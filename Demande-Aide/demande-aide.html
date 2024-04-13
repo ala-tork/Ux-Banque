@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UX Banque - Demande Aide</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Wix+Madefor+Text:ital,wght@0,400..800;1,400..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="demainde-aide-style.css" />
+    <script defer src="demande-aide-script.js"></script>
+  </head>
+  <body>
+    <h1 class="top-stripe">Comment pouvons-nous vous aider ?</h1>
+
+    <div class="main-cont">
+      <div class="left-cont">
+        <form>
+          <label for="canaux">Comment communiquons-nous avec vous ?</label>
+
+          <div class="radio-elements">
+            <div class="radio-element">
+              <img src="../Assets/whatsapp-icon.png" />
+              <label for="whatsapp">WhatsApp</label>
+              <input
+                type="radio"
+                id="whatsapp"
+                name="whatsapp"
+                value="whatsapp"
+              />
+            </div>
+
+            <div class="radio-element">
+              <img src="../Assets/linkedin-icon.png" />
+              <label for="linkedin">LinkedIn</label>
+              <input
+                type="radio"
+                id="linkedin"
+                name="linkedin"
+                value="linkedin"
+              />
+            </div>
+
+            <div class="radio-element">
+              <img src="../Assets/messenger-icon.png" />
+              <label for="messenger">Messenger</label>
+              <input
+                type="radio"
+                id="messenger"
+                name="messenger"
+                value="messenger"
+              />
+            </div>
+
+            <div class="radio-element">
+              <img src="../Assets/phone-icon.png" />
+              <label for="sms">SMS</label>
+              <input type="radio" id="sms" name="sms" value="sms" />
+            </div>
+
+            <div class="radio-element">
+              <img src="../Assets/email-icon.png" />
+              <label for="email">E-Mail</label>
+              <input type="radio" id="email" name="email" value="email" />
+            </div>
+          </div>
+
+          <label for="email">E-mail</label>
+          <input type="email" id="email-text" name="email-text" />
+
+          <label for="num-tel">Numéro de telephone</label>
+          <input type="number" id="num-tel" name="num-tel" value="num-tel" />
+
+          <label for="date-contact"
+            >Quand souhaitez-vous que nous vous contactions ?</label
+          >
+          <input
+            type="date"
+            id="date-contact"
+            name="date-contact"
+            value="date-contact"
+          />
+        </form>
+        <div class="button-cont">
+          <button class="exit">Retour</button>
+          <button class="confirm">Confirmer</button>
+        </div>
+      </div>
+      <img src="../Assets/aide-img.jpg" class="hero-img" />
+    </div>
+
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <img src="../Assets/check-icon.png"/>
+        <h2>Merci de nous fournir vos informations</h2>
+        <h4>
+          Nous vous contacterons bientôt et vous aiderons à répondre à toutes
+          vos questions.
+        </h4>
+        <button class="continue">Continuer</button>
+      </div>
+    </div>
+  </body>
+</html>
